@@ -32,8 +32,10 @@ main{
 .box1 .profile_img {
     border-radius: 50%;
     width: 100px;
+    height: 100px;
     margin-bottom: 30px;
     margin-top: 50px;
+    object-fit: cover;
 }
 .box1{
     display: flex;

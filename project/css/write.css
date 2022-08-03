@@ -1,13 +1,7 @@
 @font-face {
-    font-family: 'GimpoGothicBold00';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/GimpoGothicBold00.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'GimpoGothicRegular00';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/GimpoGothicRegular00.woff') format('woff');
-    font-weight: normal;
+    font-family: 'GothicA1-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Light.woff2') format('woff2');
+    font-weight: 300;
     font-style: normal;
 }
 *{
@@ -16,7 +10,6 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: 'GimpoGothicRegular00';
 }
 .hidden {
         opacity: 0;
@@ -26,6 +19,7 @@ main{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'GothicA1-Light';
 }
 form{
     display: flex;
