@@ -1,0 +1,40 @@
+main{
+    width: 80vw;
+    margin: auto;
+}
+.food_img{
+    height: 400px;
+}
+.profile{
+    border-radius: 50%;
+    width: 200px;
+}
+.main1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.box1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.box2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.box3{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.box4{
+    grid-column: 2/3;
+    grid-row: 1/4;
+    padding: 50px;
+}
+.food_ctnt{
+    padding-bottom: 50px;
+}
+.com1{
+    padding-top: 50px;
+    font-size: 50px;
+}

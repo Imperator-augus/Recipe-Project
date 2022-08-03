@@ -1,0 +1,21 @@
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.join_board {
+    border: 2px solid black;
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+}
+
+.login_board {
+    border: 2px solid black;
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+}

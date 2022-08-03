@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Noto+Sans+KR:wght@700&display=swap');
+body{
+    margin: 0;
+}
+nav > img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.container {
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+}
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    font-weight: bold;
+}
+.main {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: 500px 1fr;
+    width: 100%;
+    padding: auto;
+    margin: auto;
+}
+.main > nav {
+    display: flex;
+    flex-grow: 1fr;
+    grid-column: 1/3;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/cooking-g26bf5ace8_1920.jpg);
+    justify-content: center;
+}
+input{
+    border: 1px solid #fff;
+    height: 25PX;
+    width: 200px;
+}
+input:focus{
+    outline: #fff;
+}
+ul{
+    list-style: 1px solid rgb(0, 0, 0);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    border-radius: 5px;
+}
+.title{
+    text-align: center;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 30PX;
+}
+aside > nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+li > figure{
+    display: grid;
+    margin: 0;
+    height: 400px;
+    grid-template-columns: 1fr 1fr;
+}
+.box1{
+    grid-column: 1/2;
+    background-image: url(img/asparagus-g5c508edba_1920.jpg) ;
+    background-size:cover;
+
+}
+.box2{
+    flex-grow: 2/3;
+    padding-left: 20px;
+}
+.box3{
+    flex-grow: 2/3;
+    background-image: url(img/asparagus-g5c508edba_1920.jpg);
+    background-size:cover;
+
+}
+.box4{
+    grid-column: 1/2;
+    padding-right: 20px;
+}
+
+figure > .box1 > img {
+    position: absolute;
+    width: 100%;
+}
+figure > .box3 > img {
+    position: absolute;
+    width: 100%;
+}
+nav > figure {
+    width: 300px;
+}
+.side_list{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 30px;
+}
+.footer{
+    background-color: #ccc;
+    text-align: center;
+}
+
+.login{
+    margin-bottom: 10px;
+    opacity: 50%;
+}
+.sign, .join{
+    font-weight: bold;
+    background-color:rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 25PX;
+    width: 200px;
+}
+.color {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+i{
+    margin: 20px 10px;
+}
