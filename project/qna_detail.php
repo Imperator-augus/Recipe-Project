@@ -64,7 +64,7 @@
                     <a href="qna_detail.php?qust_no=<?=$next_board?>"><button>다음글</button></a>
                 <?php } ?>
             </div>
-            <?php if(isset($_SESSION["master_user"]) && $answer === ""){ ?>
+            <?php if(isset($_SESSION["master_user"]) && @$answer["ansr_ctnt"] === null){ ?>
                 <form action="answer_proc.php" method="post">
                     <div><input type="hidden" name="q_no" value="<?=$qust_no?>"></div>
                     <div><textarea name="a_ctnt"></textarea></div>
